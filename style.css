@@ -1,94 +1,111 @@
-
-body{
+body {
     background-color: #777;
     font-size: 18px;
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
 }
 
-header,nav, section, aside, footer{
+header,
+nav,
+section,
+aside,
+footer {
     background-color: #ebebeb;
 }
 
-header,nav,footer{
+h1 {
+    color: #777;
+    font-size: 1em;
+    background: #ebebeb;
+}
+
+header,
+nav,
+footer {
     text-align: center;
     vertical-align: middle;
     line-height: 60px;
-    
 }
 
-#container{
-    width:960px;
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #777;
+}
+
+nav {
+    margin-bottom: 12px;
+}
+
+#container {
+    width: 100%;
+    max-width: 960px;
     /*postion a container in the middle of he screen */
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 2%;
 }
 
-#container2:after {
+#main-container:after {
     content: "";
     display: table;
     clear: both;
 }
 
-#container3{
+#inner-container {
     text-align: center;
     vertical-align: middle;
-    background:grey; width:90%;
-    height:184px;
+    background: #777;
+    width: 95%;
+    height: 184px;
     margin-right: auto;
-    margin-left: auto;  
+    margin-left: auto;
 }
 
-aside{
-    width:442px;
+aside {
+    width: 442px;
     margin-left: 1.5%;
-    background:#ebebeb;
+    background: #ebebeb;
 }
 
-section{
-    width:495px;
-    background:#ebebeb;
-    margin-right:8px;
+section {
+    width: 495px;
+    background: #ebebeb;
+    margin-right: 8px;
 }
 
-section, aside{
-    float:left;
+section,
+aside {
+    float: left;
     text-align: center;
     height: 263px;
 }
 
-article{
-    width:383px;
+article {
+    width: 95%;
     text-align: center;
     vertical-align: middle;
     margin-right: auto;
     margin-left: auto;
+    color: #ebebeb;
+    background: #777;
 }
 
-.content1{
-    color:white;
-    background: grey;
-    text-align: center; 
+.content1 {
+    color: #ebebeb;
+    text-align: center;
     vertical-align: middle;
-    width:80%;
+    width: 80%;
     padding: 5% 0 0 9%;
 }
 
-.content2, .content3{
-    background: white;
-    width:80%;
+.content2,
+.content3 {
+    color: #777;
+    background: #ebebeb;
     text-align: center;
     vertical-align: middle;
     margin-right: auto;
     margin-left: auto;
-    padding:3% 8%;
-}
-.content2{
-    margin-bottom: 1%;
-}
-
-.content3{
-    margin-bottom: 2%;
+    padding: 10px 0;
+    margin-bottom: 16px;
 }
